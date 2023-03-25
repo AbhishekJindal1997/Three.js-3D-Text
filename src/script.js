@@ -29,7 +29,7 @@ const matcapTexture = textureLoader.load("/textures/matcaps/8.png");
 
 const fontLoader = new FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
-  const textGeometry = new TextGeometry("Software Developer", {
+  const textGeometry = new TextGeometry("Full Stack Developer", {
     font: font,
     size: 0.5,
     height: 0.2,
